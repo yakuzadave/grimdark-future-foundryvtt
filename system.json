@@ -1,0 +1,37 @@
+{
+    "id": "grimdark-future",
+    "name": "grimdark-future",
+    "version": "0.0.1",
+    "title": "Grimdark Future Foundry VTT",
+    "url": "https://github.com/yakuzadave/grimdarkfuture-foundryvtt",
+    "description": "A simple way to play grimdark future with Foundry VTT",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "0.8.6",
+    "license": "LICENSE.txt",
+    "authors": [
+      {
+        "name": "Yakuzadave",
+        "url": "https://foundryvtt.com"
+      }
+    ],
+    "esmodules": ["module/simple.js"],
+    "styles": ["styles/simple.css"],
+    "packs": [],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "compatibility": {
+      "minimum": "10",
+      "verified": "11"
+    },
+    "gridDistance": 1,
+    "gridUnits": "in",
+    "primaryTokenAttribute": "quality",
+    "secondaryTokenAttribute": "defense",
+    "manifest": "https://raw.githubusercontent.com/yakuzadave/grimdark-future-foundryvtt/master/system.json",
+    "download": "https://github.com/yakuzadave/grimdark-future-foundryvtt/archive/refs/tags/release-001.zip"
+  }
